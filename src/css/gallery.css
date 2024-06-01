@@ -1,0 +1,21 @@
+.gallery {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 1128px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+  .gallery-image {
+    height: 200px;
+    width: 360px;
+  }
+  .gallery-image:hover {
+    transform: scale(1.04);
+  }
+  .sl-overlay {
+    background: #2E2F42 !important;
+    /* opacity: 0.8 !important; */
+    }
+    
